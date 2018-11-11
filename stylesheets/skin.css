@@ -1,0 +1,57 @@
+.hero-image {
+    background-image: url("../../web/images/911-header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 70%;
+    margin-top: -20px;
+}
+
+.hero {
+    background-color: #000;
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+#header {
+    color: orange;
+    font-weight: 100;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer a {
+    color: orange;
+    text-decoration: underline;
+}
+
+#introHeading {
+    color: orange;
+    font-weight: 100;
+}
+
+a {
+    color: orange;
+}
+
+
+
+#bs-example-navbar-collapse-1 {
+    background-color: #fff;
+    color: orange;
+    border: none;
+}
+
+.btn {
+    background-color: orange;
+    margin-top: 5%;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+form label {
+    font-weight: 100;
+}

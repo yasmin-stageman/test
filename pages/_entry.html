@@ -1,0 +1,31 @@
+{% block header %}
+
+{% include "_layouts/header" %}
+
+
+{% endblock %}
+
+<!-- set page title -->
+<title>911spares.com | {{entry.title}}</title>
+
+<link rel="stylesheet" href="../stylesheets/skin.css"> 
+
+
+<div class="bodyCopy container text-center">
+    
+    <h1 id="introHeading">{{entry.title}}</h1>
+    
+{% block codeBlock %}
+
+{{entry.codeBlock}}
+        
+    
+{% endblock %}
+    
+    
+
+{% block footer %}
+
+{% include "_layouts/footer" %}
+
+{% endblock %}
