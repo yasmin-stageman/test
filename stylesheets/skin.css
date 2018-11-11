@@ -1,5 +1,10 @@
+body {
+    
+}
+
+
 .hero-image {
-    background-image: url("../../web/images/911spares.jpg");
+    background-image: url("../../app/images/911.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,13 +14,13 @@
 }
 
 .hero {
-    background-color: #000;
+    background-color: #FFF;
     height: 70px;
     padding-bottom: 10px;
 }
 
 #header {
-    color: orange;
+    color: #00CF5C;
     font-weight: 100;
 }
 
@@ -24,34 +29,45 @@
 }
 
 .footer a {
-    color: orange;
+    color: #00CF5C;
     text-decoration: underline;
 }
 
 #introHeading {
-    color: orange;
+    color: #00CF5C;
     font-weight: 100;
 }
 
 a {
-    color: orange;
+    color: #00CF5C;
 }
 
 
-
-#bs-example-navbar-collapse-1 {
-    background-color: #fff;
-    color: orange;
-    border: none;
-}
 
 .btn {
-    background-color: orange;
+    background-color: #00CF5C;
     margin-top: 5%;
     color: #FFF;
     text-transform: uppercase;
 }
 
 form label {
-    font-weight: 100;
+    margin-top: 2%;
+   font-size: 16px;
+}
+
+
+.form-control {
+}
+
+.navbar {
+background-color: #e3e3e32e;
+color: #fff;
+font-family: Ubuntu,Helvetica,Arial,sans-serif;
+}
+
+.navbar a {
+color: #000;
+text-transform: uppercase;
+text-decoration: underline;
 }
